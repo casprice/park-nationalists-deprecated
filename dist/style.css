@@ -133,6 +133,10 @@ a {
 	top: 0px;
 }
 
+#mapid {
+	height: 180px;
+}
+
 footer {
 	height: 300px;
 	background-color: green;

@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-       <meta charset="utf-8" />
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Park Nationalists of America</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Heebo:400,400i,700|Titillium+Web:600" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen" href="dist/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="dist/style.css">
     <link rel='icon' href='dist/images/logo.png'>
-    <script src="#"></script>
-     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
    integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
    crossorigin=""/>
     <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
@@ -17,12 +16,12 @@
    crossorigin=""></script>
   </head>
   <body>
-  <header>
+    <header>
       <nav>
         <div class='navigation'>
           <div class='half-nav'>
             <ul class='left nav-items'>
-              <li><a href='#'>Home</a></li>
+              <li><a href='index.html'>Home</a></li>
               <li><a href='about.html'>About</a></li>
               <li><a href='history.html'>History</a></li>
             </ul>
@@ -41,7 +40,35 @@
           </div>
         </div>
       </nav>
-  </header>
-  <center>
-  	 <div id="mapid"></div> 
-  </center>	 
+    </header>
+    <div class='page-body'>
+     <div class='landing-home'>
+       <div class='divider'></div>
+       <div class='main-graphic'>
+         <h1 class='title'>
+           Map
+         </h1>
+       </div>
+       <div class='divider'></div>
+     </div>
+     <center>
+   	   <div id="mapid" style="width: 600px; height: 480px;"></div>
+     </center>
+   <footer>
+     <div class='foot'>
+
+     </div>
+   </footer>
+
+   <script>
+      var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+
+      L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+        maxZoom: 18,
+        id: 'mapbox.streets',
+        accessToken: 'pk.eyJ1IjoiY2FzcHJpY2UiLCJhIjoiY2pyNXpndmVvMHkwdTQzbjU3Zjh0cG5teSJ9.XgKSr7ivPga3rKhU5UnI_A'
+      }).addTo(mymap);
+   </script>
+  </body>
+</html>
