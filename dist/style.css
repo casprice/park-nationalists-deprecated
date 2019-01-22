@@ -1,11 +1,11 @@
 @font-face {
-	font-family: "Nocturne-Rough";
-	src: url('fonts/TTF/NocturneRough.ttf') format('truetype');
+	font-family: "Monteserrat-Light";
+	src: url('fonts/TTF/Monteserrat-Light.ttf') format('truetype');
 }
 
 @font-face {
-	font-family: "Nocturne-Rough";
-	src: url('fonts/TTF/NocturneRough.ttf') format('truetype');
+	font-family: "Bauru";
+	src: url('fonts/TTF/Bauru.ttf') format('truetype');
 }
 
 * {
@@ -76,7 +76,7 @@ a {
 }
 
 .logo-text {
-	font-family: "Cunia", "Titillium Web", sans-serif;
+	font-family: "Bauru", "Titillium Web", sans-serif;
 	font-size: 38px;
 	color: green;
 }
