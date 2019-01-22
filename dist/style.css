@@ -69,16 +69,16 @@ a {
 	justify-content: center;
 	align-items: center;
 	background-color: #f7f7f7;
-	border-left: 10px solid green;
-	border-bottom: 10px solid green;
-	border-right: 10px solid green;
+	border-left: 10px solid 022f2c;
+	border-bottom: 10px solid 022f2c;
+	border-right: 10px solid 022f2c;
 	border-radius: 4px;
 }
 
 .logo-text {
 	font-family: "Bauru", "Titillium Web", sans-serif;
 	font-size: 38px;
-	color: green;
+	color: 022f2c;
 }
 
 .logo {
@@ -108,13 +108,13 @@ a {
 	margin: 0 0 40px 0;
   width: 100%;
   height: 10px;
-  background-color: green;
+  background-color: 022f2c;
 }
 
 .title {
-	font-family: "Cunia", "Heebo", sans-serif;
+	font-family: "Bauru", "Heebo", sans-serif;
 	font-size: 80px;
-	color: green;
+	color: 022f2c;
 	font-weight: normal;
 	display: flex;
 	position: relative;
@@ -139,5 +139,5 @@ a {
 
 footer {
 	height: 300px;
-	background-color: green;
+	background-color: 022f2c;
 }
