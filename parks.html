@@ -52,7 +52,8 @@
        <div class='divider'></div>
      </div>
      <center>
-   	   <div id="mapid" style="width: 600px; height: 480px;"></div>
+   	   <div id="mapid" style="width: 600px; height: 480px;">
+         L.marker([39.8283, -98.5795], {icon: myIcon}).addTo(map); </div>
      </center>
    <footer>
      <div class='foot'>
@@ -73,7 +74,7 @@
 var layer = L.Marker(latlng).addTo(map);
 layer.addTo(map);
 layer.remove();
-       
+      
 var myIcon = L.icon({
     iconUrl: src='dist/images/wocheck.png',
     iconSize: [38, 95],
@@ -83,7 +84,7 @@ var myIcon = L.icon({
     shadowSize: [68, 95],
     shadowAnchor: [22, 94]
 });
-L.marker([39.8283, -98.5795], {icon: myIcon}).addTo(map);
+
        
    </script>
   </body>
