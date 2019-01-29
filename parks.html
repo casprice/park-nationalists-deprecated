@@ -70,6 +70,10 @@
         accessToken: 'pk.eyJ1IjoiY2FzcHJpY2UiLCJhIjoiY2pyNXpndmVvMHkwdTQzbjU3Zjh0cG5teSJ9.XgKSr7ivPga3rKhU5UnI_A'
       }).addTo(mymap);
        
+var layer = L.Marker(latlng).addTo(map);
+layer.addTo(map);
+layer.remove();
+       
 var myIcon = L.icon({
     iconUrl: src='dist/images/wocheck.png',
     iconSize: [38, 95],
