@@ -72,7 +72,7 @@
        
        var PinIcon = L.Icon.extend({
     options: {
-        shadowUrl: 'shadow.png',
+        shadowUrl: 'dist/images/shadow.png',
         iconSize:     [38, 95],
         shadowSize:   [50, 64],
         iconAnchor:   [22, 94],
@@ -80,8 +80,8 @@
         popupAnchor:  [-3, -76]
     }
 });
-       var woIcon = new PinIcon({iconUrl: 'wocheck.png'}),
-    wIcon = new PinIcon({iconUrl: 'wcheck.png'});
+       var woIcon = new PinIcon({iconUrl: 'dist/images/wocheck.png'}),
+    wIcon = new PinIcon({iconUrl: 'dist/images/wcheck.png'});
        
        L.icon = function (options) {
     return new L.Icon(options);
