@@ -16,7 +16,7 @@
 
 body {
 	font-family: "Titillium Web", sans-serif;
-	background-color: #b0b2b1;
+	background-color: #eaedea;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -56,6 +56,10 @@ a {
 .nav-items > li {
 	text-decoration: none;
 	display: inline;
+}
+
+.list-item {
+
 }
 
 .left {
