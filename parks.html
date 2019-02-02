@@ -83,9 +83,9 @@
 	var wIcon = new MarkerIcon({iconUrl: 'dist/images/wcheck.png'}),
 	    woIcon = new MarkerIcon({iconUrl: 'dist/images/wocheck.png'});
 	   
-	var customPopup = "Acadia<br/><img src='dist/images/acadia.png' alt='acadia' width='350px'/>";
+	var Acadia = "Acadia<br/><img src='dist/images/acadia.png' alt='acadia' width='350px'/>";
 	   
-	L.marker([44.376789, -68.255569], {icon: woIcon}).bindPopup(customPopup).addTo(mymap);
+	L.marker([44.376789, -68.255569], {icon: woIcon}).bindPopup(Acadia).addTo(mymap);
 	L.marker([14.2583, -170.6833], {icon: woIcon}).bindPopup("American Samoa").addTo(mymap);
 	L.marker([38.733082, -109.592514], {icon: woIcon}).bindPopup("Arches").addTo(mymap);
 	L.marker([43.907810, -102.332787], {icon: woIcon}).bindPopup("Badlands").addTo(mymap);
