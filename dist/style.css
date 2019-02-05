@@ -162,7 +162,7 @@ footer {
 
 .image {
   display: block;
-  width: 300;
+  width: 300px;
   height: auto;
 }
 
@@ -173,7 +173,7 @@ footer {
   right: 0;
   background-color: #022f2c;
   overflow: hidden;
-  width: 300;
+  width: 300px;
   height:0;
   transition: .5s ease;
 }
