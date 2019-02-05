@@ -9,6 +9,47 @@
     <link rel="stylesheet" type="text/css" media="screen" href="dist/style.css" />
     <link rel='icon' href='dist/images/logo.png'>
     <script src="#"></script>
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 300;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #022f2c;
+  overflow: hidden;
+  width: 300;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+</style>
 </head>
 <body>
   <header>
@@ -51,11 +92,16 @@
       Casey and Nada love hiking and spending time outdoors and are both first year college students so they don't do much of either. </p>
       <p> Their goal is to visit all the National Parks at least once. </p>
       <img src='dist/images/parkenthusiasts.png'>
-Join in our journey by looking through the website to get some inspiration and support them in reaching their goal.
-Also the environment needs you… these beautiful parks depend on you doing your part and not being a dick! Learn more about how you can help here!
+    <div class="container">
+  <img src='dist/images/parkenthusiasts.png' alt="PE" class="image">
+  <div class="overlay">
+    <div class="text">Nada and Casey advertise their political views</div>
+  </div>
+        </div>
+<p> Join in our journey by looking through the website to get some inspiration and support them in reaching their goal.
+Also the environment needs you. These beautiful parks depend on you doing your part and not being a dick! Learn more about how you can help here!
 We love you and hope you join us by physically going to the parks, donating to wildlife or supporting us in spirit. </p>
 </p>
-       <img src='dist/images/babycasey.png'>
   <footer>
     <div class='foot'>
 
