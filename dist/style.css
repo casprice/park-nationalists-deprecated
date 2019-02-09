@@ -24,33 +24,12 @@ body {
 
 h1 {
 	font-family: "Monteserrat-Light", sans-serif;
-	font size: 40px
+	font size: 48px
 	color: white
 	line-height: 1.6;
 }
 
 h2 {
-	font-family: "Monteserrat-Light", sans-serif;
-	font size: 40px
-	color: white
-	line-height: 1.6;
-}
-
-h3 {
-	font-family: "Monteserrat-Light", sans-serif;
-	font size: 40px
-	color: white
-	line-height: 1.6;
-}
-
-h4 {
-	font-family: "Monteserrat-Light", sans-serif;
-	font size: 40px
-	color: white
-	line-height: 1.6;
-}
-
-h5 {
 	font-family: "Monteserrat-Light", sans-serif;
 	font size: 40px
 	color: white
@@ -208,10 +187,6 @@ div.desc {
   text-align: center;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 .responsive {
   padding: 0 6px;
   float: left;
@@ -236,4 +211,3 @@ div.desc {
   display: table;
   clear: both;
 }
-
