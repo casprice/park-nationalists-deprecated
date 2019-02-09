@@ -1,11 +1,13 @@
 @font-face {
 	font-family: "Monteserrat-Light";
 	src: url('fonts/TTF/Monteserrat-Light.ttf') format('truetype');
+	line-height: 1.6;
 }
 
 @font-face {
 	font-family: "Bauru";
 	src: url('fonts/TTF/Bauru.ttf') format('truetype');
+	line-height: 1.6;
 }
 
 * {
@@ -22,11 +24,13 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Monteserrat-Light", sans-serif;
+	line-height: 1.6;
 }
 
 a {
   text-decoration: none;
 	color: #034b34;
+	line-height: 1.6;
 }
 
 .navigation {
